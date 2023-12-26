@@ -1,0 +1,47 @@
+.blocks {
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+}
+
+.block {
+    width: 220px;
+    height: 250px;
+    background: #fff;
+    border-radius: 0px 0px 10px 10px; /* Закругленные углы только внизу */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    text-align: center;
+    padding: 20px;
+    position: relative;
+}
+
+.line {
+    width: 90%;
+    height: 10px;
+    position: absolute;
+    top: 0;
+}
+
+.purple-line {
+    background-color: purple;
+}
+
+.blue-line {
+    background-color: blue;
+}
+
+.yellow-line {
+    background-color: yellow;
+}
+
+h3 {
+    color: #0099cc;
+}
+
+img {
+    border: 5px solid;
+    border-radius: 50%;
+    max-width: 80px;
+    max-height: 70px;
+    margin-bottom: 10px;
+}

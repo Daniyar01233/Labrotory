@@ -1,0 +1,30 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+.top-block {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+    border-bottom: 2px solid #09f; /* Линия с тенью */
+}
+
+.choice-container {
+    display: flex;
+    justify-content: center;
+}
+
+.choice {
+    color: #fff;
+    text-decoration: underline; /* Подчеркивание текста */
+    transition: color 0.3s, text-decoration 0.3s;
+    margin: 0 10px; /* Расстояние между вариантами */
+}
+
+.choice:hover {
+    color: #09f; /* Синий цвет при наведении */
+    text-decoration: none; /* Убираем подчеркивание при наведении */
+}

@@ -1,0 +1,38 @@
+* {
+    margin: 0 auto;
+    padding: 0;
+}
+
+
+#hero {
+    background-color: blueviolet;
+    background-image: url('../img/images.jpg');
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#hero .hero-text {
+    width: 300px;
+    height: 100%;
+    background-color:rgba(0, 255, 255, 0.7);
+    position: absolute;
+    right: 100px;
+    display: flex;
+    align-items: flex-end;
+}
+#hero p {
+    margin: 30px;
+    font-size: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #fff;
+    position: relative;
+}
+#hero p::before {
+    content: '';
+    background-color: #fff;
+    width: 100px;
+    height: 6px;
+    position: absolute;
+    top: -25px;
+}

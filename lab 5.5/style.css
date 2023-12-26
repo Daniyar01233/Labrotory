@@ -1,0 +1,39 @@
+.blocks {
+    display: flex;
+    justify-content: space-around;
+    background: #fff; /* Фон блока */
+    padding: 20px;
+}
+
+.block {
+    text-align: center;
+    border-radius: 50%;
+    
+    margin: 10px;
+    padding: 20px;
+    transition: border-color 0.3s; /* Анимация изменения цвета линии */
+}
+
+.block:hover .line {
+    background-color: #0099cc; /* Цвет линии при наведении */
+}
+
+h3 {
+    color: #0099cc; /* Цвет заголовка */
+}
+
+.line {
+    height: 2px;
+    width: 100px;
+    background-color: #000;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+img {
+    border: 5px solid #0099cc; /* Цвет обводки картинки */
+    border-radius: 50%;
+    max-width: 100px;
+    max-height: 100px;
+    margin-bottom: 10px;
+}

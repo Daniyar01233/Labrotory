@@ -1,0 +1,30 @@
+.blocks {
+    display: flex;
+    justify-content: space-around;
+    background: linear-gradient(to bottom, #0099cc, #9900cc);
+    padding: 50px;
+}
+
+.block {
+    background: #fff;
+    border-radius: 0 0 10px 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    margin: 30px;
+}
+
+.content {
+    text-align: center;
+    padding: 70px;
+}
+
+h3 {
+    color: #9900cc;
+}
+
+img {
+    border: 10px solid #ff3399;
+    border-radius: 50%;
+    max-width: 300px;
+    max-height: 500px;
+    margin-bottom: 150px;
+}
